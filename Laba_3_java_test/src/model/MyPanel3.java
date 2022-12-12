@@ -49,7 +49,7 @@ public class MyPanel3 extends JPanel {
 			e.printStackTrace();
 		}
 		try {
-			arrays_list_medium=Model.Take_arrays("list","removeMedianTime");
+			arrays_list_medium=Model.Take_arrays("map","removeTotalTime");
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
