@@ -26,7 +26,7 @@ public class MyFrame extends JFrame {
     }
 	public void MyFrame3()
     {
-    	setTitle("Graphis addTotalTime Remove");
+    	setTitle("Graphis removeTotalTime Remove");
     	setSize(500,500);
     	MyPanel3 panel3=new MyPanel3();
     	Container pane=getContentPane();
@@ -34,7 +34,7 @@ public class MyFrame extends JFrame {
     }
 	public void MyFrame4()
     {
-    	setTitle("Graphis addMedianTime Remove");
+    	setTitle("Graphis removeMedianTime Remove");
     	setSize(500,500);
     	MyPanel4 panel4=new MyPanel4();
     	Container pane=getContentPane();
