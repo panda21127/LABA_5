@@ -32,18 +32,18 @@ public class MyPanel4 extends JPanel {
 		g.drawString("10000",230, 420);
 		g.drawString("100000",280, 420);
 		//y
-		g.drawString("1e+10",10, 350);
-		g.drawString("2e+10",10, 300);
-		g.drawString("3e+10",10, 250);
-		g.drawString("4e+10",10, 200);
-		g.drawString("5e+10",10, 150);
+		g.drawString("100000",10, 350);
+		g.drawString("200000",10, 300);
+		g.drawString("300000",10, 250);
+		g.drawString("400000",10, 200);
+		g.drawString("500000",10, 150);
 		g.drawLine(50, 400, 50, 50);
 		g.drawLine(50, 400, 400, 400);
 		//our game
 		List<Float>  arrays_list = new ArrayList<Float>() ;
 		List<Float>  arrays_list_medium = new ArrayList<Float>() ;
 		try {
-			arrays_list=Model.Take_arrays("map","removeTotalTime");
+			arrays_list=Model.Take_arrays("list","removeMedianTime");
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -56,7 +56,7 @@ public class MyPanel4 extends JPanel {
 		}
 		Color oldColor = g.getColor();
 		Color newColor = new Color(0, 0, 255);
-		int N=20000000;
+		int N=200;
 		g.setColor(newColor);
 		g.drawLine(50, 400, 100, (int)(400-arrays_list.get(0)/N));
 		g.drawLine(100,(int)  (400-arrays_list.get(0)/N), 150,(int) (400-arrays_list.get(1)/N));
