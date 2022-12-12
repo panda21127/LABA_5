@@ -11,7 +11,7 @@ public class MyFrame extends JFrame {
     }
 	public void MyFrame1()
     {
-    	setTitle("Graphis List Add");
+    	setTitle("Graphis addTotalTime Add");
     	setSize(500,500);
     	MyPanel panel=new MyPanel();
     	Container pane=getContentPane();
@@ -19,14 +19,14 @@ public class MyFrame extends JFrame {
     }
 	public void MyFrame2()
     {
-    	setTitle("Graphis HashMap Add");
+    	setTitle("Graphis addMedianTime Add");
     	setSize(500,500);
     	MyPanel2 panel2=new MyPanel2();
     	pane.add(panel2);
     }
 	public void MyFrame3()
     {
-    	setTitle("Graphis List Remove");
+    	setTitle("Graphis addTotalTime Remove");
     	setSize(500,500);
     	MyPanel3 panel3=new MyPanel3();
     	Container pane=getContentPane();
@@ -34,7 +34,7 @@ public class MyFrame extends JFrame {
     }
 	public void MyFrame4()
     {
-    	setTitle("Graphis HashMap Remove");
+    	setTitle("Graphis addMedianTime Remove");
     	setSize(500,500);
     	MyPanel4 panel4=new MyPanel4();
     	Container pane=getContentPane();
