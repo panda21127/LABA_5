@@ -43,7 +43,7 @@ public class MyPanel2 extends JPanel {
 		List<Float>  arrays_list = new ArrayList<Float>() ;
 		List<Float>  arrays_list_medium = new ArrayList<Float>() ;
 		try {
-			arrays_list=Model.Take_arrays("map","addTotalTime");
+			arrays_list=Model.Take_arrays("list","addMedianTime");
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
